@@ -1,6 +1,6 @@
 # Fire Emblem Fates - Voice Select Redux
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?hosted_button_id=7LVCJCM9LNQ2W)
-![Total Downloads](https://img.shields.io/github/downloads/VelouriasMoon/Fire-Emblem-Fates-Voice-Select-Redux/total 'Total Downloads')  
+![GitHub all releases](https://img.shields.io/github/downloads/VelouriasMoon/Fire-Emblem-Fates-Voice-Select-Redux/total)  
 Full rewrite of my old voice select mod using magikoopa with more features
 
 ## Overview
