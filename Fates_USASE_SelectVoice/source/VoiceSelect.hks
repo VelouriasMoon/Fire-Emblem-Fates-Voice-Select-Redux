@@ -1,0 +1,34 @@
+UnitSelectVoice:
+    type: branch
+    link: false
+    symb: map__SequenceHuman__anonymous_namespace__ProcSequence__FreeCursorTick
+    addr: 0x934
+    func: UnitSelectVoice_ASM
+
+SelectVoiceMenuHook:
+    type: branch
+    link: false
+    symb: anonymous_namespace__ProcGameConfigMenu__CreateConfigMenu
+    addr: 0x528
+    func: VoiceSelectMenuHook_ASM
+
+TurnResetPatch:
+    type: branch
+    link: false
+    symb: map__Sequence__anonymous_namespace__ProcSequence__TurnEnd
+    addr: 0x64
+    func: TurnResetFix_ASM
+
+GameConfigDeserializeHook:
+    type: branch
+    link: false
+    symb: GameConfigData__Deserialize
+    addr: 0x104
+    func: GameConfigData__Deserialize_ASM
+
+GameConfigSerializeHook:
+    type: branch
+    link: false
+    symb: GameConfigData__Serialize
+    addr: 0xCC
+    func: GameConfigData__Serialize_ASM
