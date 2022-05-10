@@ -68,6 +68,8 @@ NotPlayer:
     //ldr     r0, [r0, #140]
     ldr     r0, [r5, #0x9C]
     bl      AssetTable__GetVoice
+    cmp     r0, #0
+    beq     UnitSelectSoundAbort
     ldr     r0, [r0, #0x0]
     cmp     r0, #0
     beq     UnitSelectSoundAbort
